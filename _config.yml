@@ -25,8 +25,8 @@ title:                Summer
 tagline:              'Form follows function'
 description:          'A simple Jekyll theme with a photo sidebar.'
 keywords:             'connor, bär, designer, traveller, code, jekyll, developer, theme'
-url:                  https://madebyconnor.github.io
-baseurl:              /summer
+url:                  https://sdeehub.github.io
+baseurl:              /summer.aroi
 assets:               /assets
 images:               /images/
 image:                index-large.jpg
