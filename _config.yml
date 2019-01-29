@@ -23,7 +23,7 @@ compress_html:
 # Site meta
 title:                F426.2019
 tagline:              'Every Friday from 0400-0600 P.M.'
-description:          'มาทำ 52 สัปดาห์นี้ให้มีความหมายที่สุดสำหรับชีวิตของเรา'
+description:          '52 สัปดาห์ : พัฒนาชีวิตไร้ขีดจำกัด'
 keywords:             'connor, bär, designer, traveller, code, jekyll, developer, theme'
 url:                  https://sdeehub.github.io
 baseurl:              /f426
