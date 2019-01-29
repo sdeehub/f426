@@ -26,7 +26,7 @@ tagline:              'Form follows function'
 description:          'A simple Jekyll theme with a photo sidebar.'
 keywords:             'connor, bär, designer, traveller, code, jekyll, developer, theme'
 url:                  https://sdeehub.github.io
-baseurl:              /summer.aroi
+baseurl:              /f426
 assets:               /assets
 images:               /images/
 image:                index-large.jpg
