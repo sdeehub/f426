@@ -3,7 +3,7 @@ title: 'Physalis Salad with Honey Mustard Dressing'
 ref: physalis-salad
 image: true
 time: 10
-category: lunch
+category: 2019.01
 tags: [salad, fruit, vegetarian, fresh]
 ingredients:
   -
