@@ -18,14 +18,14 @@ font: macro
     </header>
   </div>
 
-  {% if page.credit-name %}
-    <div class="content">
-      <div class="footer-text">Photo by <a href="https://unsplash.com/{{ page.credit-user }}">{{ page.credit-name}}</a> on <a href="https://unsplash.com/">Unsplash</a></i></div>
-    </div>
-  {% endif %}
-
   {% if page.ingredients %}
     {% include custom/sidebar.html %}
+  {% endif %}
+
+  {% if page.credit-name %}
+  <div class="content">
+    <div class="meta-text">Photo by <a href="https://unsplash.com/{{ page.credit-user }}">{{ page.credit-name}}</a> on <a href="https://unsplash.com/">Unsplash</a></i></div>
+  </div>
   {% endif %}
 
   <div class="content-bottom">
