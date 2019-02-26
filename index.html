@@ -133,7 +133,7 @@ exclude: true
       <li class="list-recipe">
         <article>
           <a href="{{ site.baseurl }}{{ page.url }}" title="{{ page.title }}">
-            <div class="list-image" style="background-image: url({{ site.baseurl }}{{ site.assets }}{{ site.images }}/posts/{% if page.image %}{{ page.ref }}-small.jpg{% elsif site.image %}{{ site.image }}{% endif %});"></div>
+            <div class="list-image" style="background-image: url('https://source.unsplash.com/{{ page.ref }}/500x334');"></div>
             <div class="list-body">
               <span class="list-category category">{{ page.category }}</span>
               <h3 class="list-header title" style="font-family:Prompt;">{{ page.title }}</h3>
