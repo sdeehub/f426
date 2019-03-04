@@ -24,7 +24,7 @@ compress_html:
 title:                F426.2019
 tagline:              'Every Friday from 0400-0600 P.M.'
 description:          '52 สัปดาห์ : พัฒนาชีวิตไร้ขีดจำกัด'
-keywords:             'connor, bär, designer, traveller, code, jekyll, developer, theme'
+keywords:             'solution, dee, sdees, real, life, f426, self, development'
 url:                  https://sdeehub.github.io
 baseurl:              /f426
 assets:               /assets
@@ -33,22 +33,22 @@ image:                index-large.jpg
 logo:                 /assets/icons/apple-icon-144x144.png
 
 author:
-  name:               Connor Bär
-  bio:                Hi, I'm Connor, the author of this blog. Nice to meet you!
+  name:               SDEE'sReal.Life
+  bio:                Hi, Welcome to F426 by SDEE'sReal.Life - A wonderful kind of radical life changing in 52 activities!
   image:              author
-  url:                https://connorbaer.co
-  email:              hello@connorbaer.co
-  twitter:            connor_baer
+  url:                https://sdeehub.github.io/sdee.co
+  email:              odd.daboss@gmail.com
+  twitter:            odd_daboss
 
 social:
-  twitter:            https://twitter.com/connor_baer
-  instagram:          https://instagram.com/connor_baer
-  github:             https://github.com/madebyconnor/summer
+  twitter:            https://twitter.com/odd_daboss
+  instagram:          https://instagram.com/cpe.sdee.co
+  github:             https://github.com/sdeehub/f426
 
 version:              2.0.0
 
 github:
-  repo:               https://github.com/madebyconnor/summer
+  repo:               https://github.com/sdeehub/f426
 
 
 # Integrations
@@ -66,7 +66,7 @@ google_fonts:
 excerpt_separator: <!-- Read more -->
 
 navigation:
-  GitHub: https://github.com/madebyconnor/summer
+  GitHub: https://github.com/sdeehub/f426
   Download: https://github.com/madebyconnor/summer/archive/gh-pages.zip
 
 collections:
