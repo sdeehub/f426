@@ -1,9 +1,7 @@
 <aside id="metabar" class="metabar{% if include.color %} {{ include.color }}{% endif %}">
 	<div class="metabar-wrapper">
 		<div class="metabar-left">
-			<a class="metabar-logo" href="https://sdeehub.github.io/sdee.co/{% if site.url == 'https://sdeehub.github.io/sdee.co/' and page.url == '/' %}#" data-scroll{% else %}" target="_blank" rel="noopener noreferrer"{% endif %} aria-label="Visit 'Made by Connor.'" title="Visit 'Made by Connor.'">
-				{% include custom/logo.html %}
-			</a>
+			<a class="metabar-title" href="https://sdeehub.github.io/sdee.co/" target="_blank" aria-label="SDEE's Real.Life" title="SDEE's Real.Life">SDEE's</a>
 			<span class="metabar-spacer"></span>
 			<a class="metabar-title" href="{{ site.url }}{{ site.baseurl }}{% if page.url == '/' %}#" data-scroll{% else %}"{% endif %} aria-label="Visit the homepage." title="Visit the homepage.">{{ site.title }}</a>
 		</div>
