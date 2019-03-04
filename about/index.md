@@ -9,4 +9,4 @@ ref: about
 
 ![Touch the sky](https://source.unsplash.com/rk_Zz3b7G2Y)
 
-<sup><sub>*Photo by [Samuel Zeller](https://unsplash.com/@samuelzeller) on [Unsplash](https://unsplash.com)*</sub></sup>
+*Photo by [Samuel Zeller](https://unsplash.com/@samuelzeller) on [Unsplash](https://unsplash.com)*
