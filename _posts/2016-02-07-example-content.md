@@ -1,8 +1,9 @@
 ---
+title: Example content
+date: 2016-02-07 00:00:00 Z
 layout: post
 lang: en
 ref: example-content
-title: Example content
 image: true
 ---
 

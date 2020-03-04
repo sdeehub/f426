@@ -1,90 +1,88 @@
-# Dependencies
-markdown:             kramdown
-highlighter:          rouge
-
-
-# Gems
+---
+title: F426.2019
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  recipes:
+    title: Recipes
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    lang: en
+    permalink: "/news/:title/"
+- scope:
+    path: ''
+    type: recipes
+  values:
+    layout: recipe
+    lang: en
+    permalink: "/:title/"
+markdown: kramdown
+highlighter: rouge
 gems:
-  - jekyll-feed
-  - jekyll-gist
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-
-
-# Settings
-color:                '#fd7e14'
-exclude:              [CNAME, README.md, NOTES.md, LICENSE.md, .gitignore, package.json, bower.json, _js, _scss, _images, gulpfile.js, gulpconfig.js, node_modules, bower_components, gemfile, Gemfile.lock]
-permalink:            /:title/
+- jekyll-feed
+- jekyll-gist
+- jekyll-redirect-from
+- jekyll-seo-tag
+color: "#fd7e14"
+exclude:
+- CNAME
+- README.md
+- NOTES.md
+- LICENSE.md
+- ".gitignore"
+- package.json
+- bower.json
+- _js
+- _scss
+- _images
+- gulpfile.js
+- gulpconfig.js
+- node_modules
+- bower_components
+- gemfile
+- Gemfile.lock
+permalink: "/:title/"
 compress_html:
   clippings: all
   comments: all
-
-
-# Site meta
-title:                F426.2019
-tagline:              'Every Friday from 0400-0600 P.M.'
-description:          '52 สัปดาห์ : พัฒนาชีวิตไร้ขีดจำกัด'
-keywords:             'solution, dee, sdees, real, life, f426, self, development'
-url:                  https://sdeehub.github.io
-baseurl:              /f426
-assets:               /assets
-images:               /images/
-image:                index-large.jpg
-logo:                 /assets/icons/apple-icon-144x144.png
-
+tagline: Every Friday from 0400-0600 P.M.
+description: '52 สัปดาห์ : พัฒนาชีวิตไร้ขีดจำกัด'
+keywords: solution, dee, sdees, real, life, f426, self, development
+url: https://sdeehub.github.io
+baseurl: "/f426"
+assets: "/assets"
+images: "/images/"
+image: index-large.jpg
+logo: "/assets/icons/apple-icon-144x144.png"
 author:
-  name:               SDEE'sReal.Life
-  bio:                Hi, Welcome to F426 by SDEE'sReal.Life - A wonderful kind of radical life changing in 52 activities!
-  image:              author
-  url:                https://sdeehub.github.io/sdee.co
-  email:              odd.daboss@gmail.com
-  twitter:            odd_daboss
-
+  name: SDEE'sReal.Life
+  bio: Hi, Welcome to F426 by SDEE'sReal.Life - A wonderful kind of radical life changing
+    in 52 activities!
+  image: author
+  url: https://sdeehub.github.io/sdee.co
+  email: odd.daboss@gmail.com
+  twitter: odd_daboss
 social:
-  twitter:            https://twitter.com/odd_daboss
-  instagram:          https://instagram.com/cpe.sdee.co
-  github:             https://github.com/sdeehub/f426
-
-version:              2.0.0
-
+  twitter: https://twitter.com/odd_daboss
+  instagram: https://instagram.com/cpe.sdee.co
+  github: https://github.com/sdeehub/f426
+version: 2.0.0
 github:
-  repo:               https://github.com/sdeehub/f426
-
-
-# Integrations
-# typekit:              fcv7rfe
-
+  repo: https://github.com/sdeehub/f426
 google_fonts:
-  Prompt:           400, 600, 800
-  Athiti:           400, 600, 800
-
-# google_analytics_key: UA-37412525-4
-# google_site_verification: Z-pc_HPc4XNBz8xg1fgtxO2MSIYLirZc2jWTNq0bJyM
-
-
-# Content
-excerpt_separator: <!-- Read more -->
-
+  Prompt: 400, 600, 800
+  Athiti: 400, 600, 800
+excerpt_separator: "<!-- Read more -->"
 navigation:
   GitHub: https://github.com/sdeehub/f426
   Download: https://github.com/madebyconnor/summer/archive/gh-pages.zip
-
-collections:
-  recipes:
-    output: true
-
-defaults:
-  - scope:
-      path: ''
-      type: posts
-    values:
-      layout: post
-      lang: en
-      permalink: /news/:title/
-  - scope:
-      path: ''
-      type: recipes
-    values:
-      layout: recipe
-      lang: en
-      permalink: /:title/

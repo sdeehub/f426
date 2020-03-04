@@ -1,8 +1,9 @@
 ---
+title: Introducing Summer
+date: 2016-02-22 00:00:00 Z
 layout: post
 lang: en
 ref: introducing-summer
-title: Introducing Summer
 image: true
 ---
 

@@ -1,8 +1,9 @@
 ---
+title: What's Jekyll?
+date: 2016-02-06 00:00:00 Z
 layout: post
 lang: en
 ref: whats-jekyll
-title: What's Jekyll?
 image: true
 ---
 
