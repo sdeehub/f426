@@ -1,6 +1,6 @@
 ---
 title: Meet And Greet
-date: 2019-09-08 00:00:00 Z
+date: 2019-09-08 07:00:00 +07:00
 ---
 
 # Meet people and places

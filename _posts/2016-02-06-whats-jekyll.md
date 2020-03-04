@@ -1,6 +1,6 @@
 ---
 title: What's Jekyll?
-date: 2016-02-06 00:00:00 Z
+date: 2016-02-06 07:00:00 +07:00
 layout: post
 lang: en
 ref: whats-jekyll
